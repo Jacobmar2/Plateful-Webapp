@@ -1,0 +1,55 @@
+#product-carousel {
+    > h1 {
+        font-family: "Agbalumo", sans-serif;
+        color: white;
+        font-weight: 1000;
+        font-style: bold;
+    }
+
+    .slick-track {
+        display: flex !important;
+    }
+
+    .slick-slide {
+        height: inherit !important;
+        transition: .4s;
+
+        > div {
+            display: flex;
+            flex-direction: column;
+            height: 100%;
+        }
+    }
+
+    .slick-slide:hover {
+        transform: translate(0, -8px);
+    }
+
+    .slick-dots {
+        display: flex !important;
+        justify-content: center;
+
+        & li {
+            display: flex !important;
+            align-content: center;
+            height: 36px !important;
+            width: auto !important;
+
+            & svg {
+                fill: transparent;
+                stroke: white;
+                stroke-width: 0.5px;
+                width: auto;
+                height: auto;
+            }
+        }
+
+        & li.slick-active svg {
+            fill: white;
+        }
+    }
+
+    .slick-dots li svg:hover{
+        stroke-width: 1px;
+    }
+}

@@ -1,0 +1,26 @@
+#pagination {
+    color: #818181;
+
+    & .page-link {
+        color: #818181;
+    }
+
+    & .page-item.disabled .page-link {
+        background-color: white;
+        color: lightgrey;
+    }
+
+    & .page-item.active .page-link {
+        background-color: #f4d35e;
+        cursor: default;
+        border-color: #f4d35e;
+        color: white;
+    }
+
+    & .page-item.ellipsis .page-link {
+        color: lightgrey;
+        > span {
+            transform: translate(5, -5px) !important;
+        }
+    }
+}
