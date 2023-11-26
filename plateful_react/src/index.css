@@ -1,0 +1,17 @@
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+        monospace;
+}
+
+.bg-darkgreen {
+    background-color: #1f2b21;
+}
+
+body {
+    background-color: #fff !important;
+    font-family: "Magra";
+}
+
+body > * {
+  padding-top: 50px;
+}

@@ -1,0 +1,24 @@
+#footer-image {
+    height: 70vh;
+    background-image: url("../image/coverpage.jpg");
+    background-size: cover;
+    text-align: left;
+
+    > div {
+        background: rgba(0, 0, 0, 0.6);
+    }
+
+    & h1 {
+        font-family: "Agbalumo", sans-serif;
+        color: #f4d35e;
+        font-weight: 700;
+        padding-top: 10px;
+        font-size: 70px;
+        line-height: 1.1;
+    }
+}
+
+#upButton{
+    background: none;
+    border: none;
+}

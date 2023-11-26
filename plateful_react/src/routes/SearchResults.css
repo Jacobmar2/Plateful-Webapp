@@ -1,0 +1,17 @@
+#searchResults {
+    & #productEntry {
+        transition: 0.4s;
+        box-shadow: 0 10px 10px rgba(0, 0, 0, 0.23),
+            0 10px 10px rgba(0, 0, 0, 0.22);
+    }
+
+    & #productEntry:hover {
+        box-shadow: 0 10px 10px rgba(0, 0, 0, 0.16),
+            0 10px 10px rgba(0, 0, 0, 0.23);
+        transform: translate(0px, -8px);
+    }
+}
+
+.recipe-row{
+    margin-bottom: 20px;
+}

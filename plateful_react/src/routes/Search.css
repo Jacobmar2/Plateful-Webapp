@@ -1,0 +1,21 @@
+#searchBar {
+    & .btn {
+        color: white;
+        background-color: #f4d35e;
+        border-color: #f4d35e;
+    }
+
+    & .btn:hover {
+        background-color: #f0ad4e;
+    }
+}
+
+.recipe{
+    height: 500px;
+    margin-bottom: 40px;
+}
+
+.products{
+    height: 500px;
+    margin-bottom: 40px;
+}
